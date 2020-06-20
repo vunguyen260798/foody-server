@@ -42,13 +42,16 @@ exports.getMenu=async function(req,res){
             .exec(cb)
         },
         function getAllMenu(restaurant,cb){
-            db.Menu.find({
-                _id:{
-                    $in:restaurant.menu
-                }
-            })
-            .lean()
-            .exec(cb)
+            if(!restaurant)
+                cb(new Error("not found menu of this restaurant"))
+            else
+                db.Menu.find({
+                    _id:{
+                        $in:restaurant.menu
+                    }
+                })
+                .lean()
+                .exec(cb)
         },
         function getDetailMenu(menus,cb){
             async.map(menus,(menu,cbMenu)=>{
@@ -100,16 +103,4 @@ exports.getAll=async function(req,res){
             })
         }
     })
-}
-/**
- *  DELETE /user/id/:_id
- */
-exports.delete=function(req,res){
-    let id=req.params._id
-    db.User.deleteOne({
-       _id:id 
-    },(err)=>{
-        if(err) console.log(err)
-    })
-    res.success(true)
 }
