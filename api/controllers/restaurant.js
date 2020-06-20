@@ -79,12 +79,26 @@ exports.getMenu=async function(req,res){
 }
 
 /**
- *  GET: /restaurants
+ *  GET: /restaurants?keyword=
  *  
  */
 exports.getAll=async function(req,res){
-    let count=await db.Restaurant.find({}).count()
-    db.Restaurant.find({})
+    let keyword=req.query.keyword
+    let filter={}
+    if(keyword){
+        let patt=new RegExp(keyword,"gi")
+        filter={
+            $or:[
+                {name:patt},
+                {address:patt},
+                {
+                    foodQuery:patt
+                }
+            ]
+        }
+    }
+    let count=await db.Restaurant.find(filter).count()
+    db.Restaurant.find(filter)
     .populate("province")
     .skip(req.query.skip)
     .limit(req.query.limit)
@@ -100,7 +114,7 @@ exports.getAll=async function(req,res){
             let pageIndex=(Number(req.query.skip)%Number(req.query.limit)==0) ?
                temp + 1 : temp
             res.success(results,{
-                count:results.length,
+                count:count,
                 pageSize:req.query.pageSize,
                 pageIndex:pageIndex,
                 pageCount:Math.ceil(Number(count)/Number(req.query.pageSize))

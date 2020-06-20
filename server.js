@@ -4,7 +4,9 @@ let PORT = process.env.PORT || 3000
 let mongoose = require("mongoose");
 let router = require("./api/router")
 let init = require("./shared/init");
-
+const db = require("./model");
+const moment = require("moment");
+require('dotenv').config()
 
 // init global variable
 init.initGlobal({
@@ -26,12 +28,8 @@ console.log(process.env.NODE_ENV)
  //init.initData.province()
  //init.initData.restaurant()
 //init.initData.food()
-db.Restaurant.find({})
-.exec((err,data)=>{
-    data.forEach(i=>{
-        i.avatarUrl=i.avatar
-    })
-})
+
+
 app.use('/api', router)
 
 app.listen(PORT, () => {
