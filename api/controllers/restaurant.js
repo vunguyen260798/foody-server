@@ -62,7 +62,11 @@ exports.getMenu=async function(req,res){
                 .lean()
                 .exec()
                 foods.then(data=>{
-                    menu.foods=data
+                    menu.foods=data.map(i=>{
+                        i.name=i.food
+                        delete i.food
+                        return i
+                    })
                     cbMenu(null,menu)
                 })
             },cb)
