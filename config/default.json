@@ -1,0 +1,5 @@
+{
+    "mongo":{
+        "url":"mongodb+srv://admin:admin@foody-kutlv.mongodb.net/foody?retryWrites=true&w=majority"
+    }
+}

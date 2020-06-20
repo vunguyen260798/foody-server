@@ -1,0 +1,126 @@
+[{
+    "id":0,
+    "type":"Lẩu",
+    "foods":[
+        {
+        "name":"Lẩu mắm",
+        "img":"https://www.riviu.vn/wp-content/uploads/2019/06/cach-nau-lau-mam-ngon-ngat-ngay-an-mot-lan-la-nho-mai-huong-vi.jpg"
+    },{
+        "name":"Lẩu thái chua cay",
+        "img":"https://www.riviu.vn/wp-content/uploads/2019/06/nhung-mon-lau-ngon-ban-khong-the-bo-qua.jpg"
+    },{
+        "name":"Lẩu gà lá giang",
+        "img":"https://www.riviu.vn/wp-content/uploads/2019/06/Lau-ga-la-giang-la-mon-an-quen-thuoc.jpg"
+    },{
+        "name":"Lẩu gà ớt hiểm",
+        "img":"https://www.riviu.vn/wp-content/uploads/2019/06/lau_ga_ot_hiem.jpg"
+    },{
+        "name":"Lẩu bò",
+        "img":"https://www.riviu.vn/wp-content/uploads/2019/06/lau_bo.png"
+    },{
+        "name":"Lẩu cá kèo",
+        "img":"https://www.riviu.vn/wp-content/uploads/2019/06/lau-ca-keo.jpg"
+    },{
+        "name":"Lẩu ếch măng chua",
+        "img":"https://www.riviu.vn/wp-content/uploads/2019/06/lau_ech_mang_chua.jpg"
+    },{
+        "name":"Lẩu cua đồng",
+        "img":"https://www.riviu.vn/wp-content/uploads/2019/06/cach-nau-lau-cua-dong.jpg"
+    },{
+        "name":"Lẩu ghẹ",
+        "img":"https://www.riviu.vn/wp-content/uploads/2019/06/lau_ghe.jpg"
+    }]
+},{
+    "id":2,
+    "type":"cơm",
+    "foods":[
+        {
+        "name":"Ếch kho lá chanh",
+        "img":"https://images.foody.vn/res/g81/800164/s750x750/8c772297-e043-4245-1b60-1ee2c797dc74.jpg"
+    },{
+        "name":"Bò xào bông thiên lý",
+        "img":"https://images.foody.vn/res/g81/800164/s750x750/bb869756-4bd8-4670-e65e-7687b3128a1b.jpg"
+    },{
+        "name":"Ba chỉ rim nước mắm",
+        "img":"https://images.foody.vn/res/g81/800164/s750x750/93549986-00ec-40ce-0bbd-7746f882a8f6.jpg"
+    },{
+        "name":"Đùi gà muối xả ớt chiên",
+        "img":"https://images.foody.vn/res/g81/800164/s750x750/7ada45a6-e0bb-4a73-5e2f-87943c13f957.jpg"
+    },{
+        "name":"Thịt viên sốt cà thêm",
+        "img":"https://images.foody.vn/res/g81/800164/s750x750/64260e31-b20c-481b-ca08-35514ba94130.jpg"
+    },{
+        "name":"Cơm thêm",
+        "img":"https://images.foody.vn/res/g81/800164/s750x750/2018122623731-com.jpg"
+    },{
+        "name":"Heo quay",
+        "img":"https://images.foody.vn/res/g21/202177/s180x180/foody-quan-com-binh-dan-nguyen-kiem-725-636699298424302030.jpg"
+    },{
+        "name":"Mắm kho cá hú",
+        "img":"https://images.foody.vn/res/g21/202177/s180x180/foody-quan-com-binh-dan-nguyen-kiem-206-636699298426489710.jpg"
+    },{
+        "name":"Mắm chưng",
+        "img":"https://images.foody.vn/res/g21/202177/s180x180/foody-quan-com-binh-dan-nguyen-kiem-230-636699298444636897.jpg"
+    },{
+        "name":"Mắm ruốc",
+        "img":"https://images.foody.vn/res/g21/202177/s180x180/foody-quan-com-binh-dan-nguyen-kiem-373-636699298469326328.jpg"
+    },{
+        "name":"Đậu hủ dồn thịt",
+        "img":"https://images.foody.vn/res/g21/202177/s180x180/foody-quan-com-binh-dan-nguyen-kiem-476-636699298440105303.jpg"
+    },{
+        "name":"Gà rán",
+        "img":"https://images.foody.vn/res/g21/202177/s180x180/foody-quan-com-binh-dan-nguyen-kiem-570-636699298428052322.jpg"
+    },{
+        "name":"Tép",
+        "img":"https://images.foody.vn/res/g21/202177/s180x180/foody-quan-com-binh-dan-nguyen-kiem-365-636699298458231712.jpg"
+    }]
+},{
+    "id":3,
+    "type":"bún phở",
+    "foods":[{
+        "name":"Bún ngang",
+        "img":"https://d1sag4ddilekf6.cloudfront.net/item/VNITE2020060503315281839/photos/menueditor_item_69c65721dea849db9efaaa16231c1da1_1591327909210557408.jpg"
+    },{
+        "name":"Bún bỏ",
+        "img":"https://d1sag4ddilekf6.cloudfront.net/item/VNITE2020033109021935713/photos/menueditor_item_e8329a938a4640ec9884f738e2b0fed1_1585645315233747528.jpg"
+    },{
+        "name":"Phở gà",
+        "img":"https://d1sag4ddilekf6.cloudfront.net/item/VNITE2020033108272591598/photos/menueditor_item_3ab788b4d1fe4b9698f639d1189e6ea2_1585643218035461101.jpg"
+    },{
+        "name":"Phở bò tái",
+        "img":"https://d1sag4ddilekf6.cloudfront.net/item/VNITE2020033108030397174/photos/menueditor_item_b9293c8b9a9246d99e4cbbb3b0c286ed_1585641752259830084.jpg"
+    },{
+        "name":"Mì xào thịt gà",
+        "img":"https://d1sag4ddilekf6.cloudfront.net/item/VNITE2020033108400288742/photos/menueditor_item_c4dc43fed0904ae4ac316c5cebdab2bb_1585643972702745090.jpg"
+    },{
+        "name":"Phở xào dưa bò",
+        "img":"https://d1sag4ddilekf6.cloudfront.net/item/VNITE2020033108362952467/photos/menueditor_item_bc1a0094e2294096be24d0b557c5c92f_1585643757819181551.jpg"
+    },{
+        "name":"Mì xào cải bò",
+        "img":"https://d1sag4ddilekf6.cloudfront.net/item/VNITE2020033107511078950/photos/menueditor_item_303de4ed3bdb4852bcce3c1460a1a6b9_1585641013384760256.jpg"
+    }]
+},{
+    "id":4,
+    "type":"nước uống",
+    "foods":[{
+        "name":"Cà phê",
+        "img":"https://www.posapp.vn/wp-content/uploads/2017/11/b8-cafe-den-2_purio-cafe.jpg",
+        "price":"20000"
+        },{
+        "name":"Cocacola",
+        "img":"https://product.hstatic.net/1000335596/product/img_0163_8dd37ca37c8b447080b3591e540dd99c_2a902d303dac43c0aef9d212828c0b8d.jpg",
+        "price":"15000"
+    },{
+        "name":"Bò húc",
+        "img":"https://cf.shopee.vn/file/9b49c5b394dbdefb85a66304a2f16f34_tn",
+        "price":"10000"
+    },{
+        "name":"Sting",
+        "img":"https://cdn.tgdd.vn/Products/Images/2443/76520/bhx/nuoc-tang-luc-sting-huong-dau-330ml-201909031559004919.jpg",
+        "price":"10000"
+    },{
+        "name":"Revive",
+        "img":"https://portal.vidinc.vn/web/image/product.template/1756/image",
+        "price":"12000"
+    }]
+}]

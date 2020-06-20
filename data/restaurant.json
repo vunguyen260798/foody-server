@@ -1,0 +1,1135 @@
+[
+    {
+    "Id": 131876,
+    "Name": "Bún Đậu 46 - 50 Cao Bá Nhạ",
+    "Address": "50 Cao Bá Nhạ, P. Nguyễn Cư Trinh",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 2,
+            "Name": "Monsn Bắc",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-mien-bac"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 3,
+            "Name": "Quán ăn",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/bun-dau-46-60-cao-ba-nha/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.762285,
+    "Longitude": 106.689587,
+    "MainCategoryId": 3,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": false,
+    "TotalReview": 292,
+    "TotalView": 16582,
+    "TotalFavourite": 159,
+    "TotalCheckins": 41,
+    "TotalPictures": 1017,
+    "AvgRating": "7.2",
+    "AvgRatingOriginal": 7.172,
+    "PicturePath": "https://images.foody.vn/res/g14/131876/prof/s180x180/foody-upload-api-foody-mobile-10-190315110938.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g14/131876/prof/s640x400/foody-upload-api-foody-mobile-10-190315110938.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g14/131876/prof/s640x400/foody-upload-api-foody-mobile-10-190315110938.jpg",
+    "ReviewUrl": "/ho-chi-minh/bun-dau-46-60-cao-ba-nha/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/bun-dau-46-60-cao-ba-nha/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/bun-dau-46-60-cao-ba-nha"
+},
+    {
+    "Id": 70778,
+    "Name": "Mellow Creperie Cafe (Le Cottage Cũ)",
+    "Address": "51A Huỳnh Khương Ninh, P. Đa Kao",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 19,
+            "Name": "Pháp",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-phap"
+        },
+        {
+            "Id": 33,
+            "Name": "Mỹ",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-my"
+        },
+        {
+            "Id": 34,
+            "Name": "Món Âu",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-tay-au"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 1,
+            "Name": "Nhà hàng",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        },
+        {
+            "Id": 2,
+            "Name": "Café/Dessert",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        },
+        {
+            "Id": 3,
+            "Name": "Quán ăn",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/le-cottage-resto-cafe/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.7899,
+    "Longitude": 106.696106,
+    "MainCategoryId": 2,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": false,
+    "TotalReview": 122,
+    "TotalView": 81917,
+    "TotalFavourite": 493,
+    "TotalCheckins": 70,
+    "TotalPictures": 1143,
+    "AvgRating": "7.3",
+    "AvgRatingOriginal": 7.27,
+    "PicturePath": "https://images.foody.vn/res/g8/70778/prof/s180x180/foody-mobile-oa9hfu5i-jpg-489-635780957260161427.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g8/70778/prof/s640x400/foody-mobile-oa9hfu5i-jpg-489-635780957260161427.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g8/70778/prof/s640x400/foody-mobile-oa9hfu5i-jpg-489-635780957260161427.jpg",
+    "ReviewUrl": "/ho-chi-minh/le-cottage-resto-cafe/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/le-cottage-resto-cafe/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/le-cottage-resto-cafe"
+},
+    {
+    "Id": 8843,
+    "Name": "Burger King - Phạm Hồng Thái",
+    "Address": "74 - 76 Phạm Hồng Thái ",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 24,
+            "Name": "Châu Mỹ",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-chau-my"
+        },
+        {
+            "Id": 33,
+            "Name": "Mỹ",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-my"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 1,
+            "Name": "Nhà hàng",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/burger-king-pham-hong-thai/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.771215,
+    "Longitude": 106.6946368999999,
+    "MainCategoryId": 1,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": false,
+    "TotalReview": 215,
+    "TotalView": 70743,
+    "TotalFavourite": 53,
+    "TotalCheckins": 105,
+    "TotalPictures": 948,
+    "AvgRating": "6.3",
+    "AvgRatingOriginal": 6.284,
+    "PicturePath": "https://images.foody.vn/res/g1/8843/prof/s180x180/foody-upload-api-foody-mobile-banner-190304174331.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g1/8843/prof/s640x400/foody-upload-api-foody-mobile-banner-190304174331.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g1/8843/prof/s640x400/foody-upload-api-foody-mobile-banner-190304174331.jpg",
+    "ReviewUrl": "/ho-chi-minh/burger-king-pham-hong-thai/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/burger-king-pham-hong-thai/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/burger-king-pham-hong-thai"
+},
+    {
+    "Id": 34536,
+    "Name": "Secret Garden - Vietnamese Restaurant & Tea House",
+    "Address": "158 Bis/40-41 Pasteur, P. Bến Nghé",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 1,
+            "Name": "Món Việt",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-viet-nam"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 1,
+            "Name": "Nhà hàng",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 2,
+            "Type": 0,
+            "Url": "/ho-chi-minh/secret-garden-vietnamese-restaurant-tea-house",
+            "Title": null,
+            "Text": "Đặt bàn ",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.777188,
+    "Longitude": 106.699868,
+    "MainCategoryId": 1,
+    "MasterCategoryId": 1,
+    "HasDelivery": false,
+    "HasBooking": true,
+    "TotalReview": 126,
+    "TotalView": 104832,
+    "TotalFavourite": 537,
+    "TotalCheckins": 49,
+    "TotalPictures": 989,
+    "AvgRating": "7.5",
+    "AvgRatingOriginal": 7.464,
+    "PicturePath": "https://images.foody.vn/res/g4/34536/prof/s180x180/foody-mobile-3-jpg.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g4/34536/prof/s640x400/foody-mobile-3-jpg.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g4/34536/prof/s640x400/foody-mobile-3-jpg.jpg",
+    "ReviewUrl": "/ho-chi-minh/secret-garden-vietnamese-restaurant-tea-house/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/secret-garden-vietnamese-restaurant-tea-house/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/secret-garden-vietnamese-restaurant-tea-house"
+},
+    {
+    "Id": 809,
+    "Name": "Curry Shika - Ăn Vặt Nhật Bản",
+    "Address": "1/4 Nguyễn Văn Tráng, P. Bến Thành",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 21,
+            "Name": "Món Nhật",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-nhat-ban"
+        },
+        {
+            "Id": 36,
+            "Name": "Món Á",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-chau-a"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 1,
+            "Name": "Nhà hàng",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [],
+    "Latitude": 10.769673,
+    "Longitude": 106.692309,
+    "MainCategoryId": 1,
+    "MasterCategoryId": 1,
+    "HasDelivery": false,
+    "HasBooking": false,
+    "TotalReview": 122,
+    "TotalView": 112329,
+    "TotalFavourite": 431,
+    "TotalCheckins": 80,
+    "TotalPictures": 920,
+    "AvgRating": "7.4",
+    "AvgRatingOriginal": 7.382,
+    "PicturePath": "https://images.foody.vn/res/g1/809/prof/s180x180/foody-mobile-curry-shika-mb-jpg-506-635851068699303935.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g1/809/prof/s640x400/foody-mobile-curry-shika-mb-jpg-506-635851068699303935.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g1/809/prof/s640x400/foody-mobile-curry-shika-mb-jpg-506-635851068699303935.jpg",
+    "ReviewUrl": "/ho-chi-minh/curry-shika/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/curry-shika/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/curry-shika"
+},
+    {
+    "Id": 700458,
+    "Name": "The Alley - Trà Sữa Đài Loan - Hồ Tùng Mậu",
+    "Address": "114 Hồ Tùng Mậu",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 36,
+            "Name": "Món Á",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-chau-a"
+        },
+        {
+            "Id": 51,
+            "Name": "Đài Loan",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-dai-loan"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 2,
+            "Name": "Café/Dessert",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/the-alley-tra-sua-dai-loan-ho-tung-mau/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.773149,
+    "Longitude": 106.703359,
+    "MainCategoryId": 2,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": false,
+    "TotalReview": 300,
+    "TotalView": 88364,
+    "TotalFavourite": 157,
+    "TotalCheckins": 37,
+    "TotalPictures": 1009,
+    "AvgRating": "6.7",
+    "AvgRatingOriginal": 6.686,
+    "PicturePath": "https://images.foody.vn/res/g71/700458/prof/s180x180/foody-upload-api-foody-mobile-16-190617174505.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g71/700458/prof/s640x400/foody-upload-api-foody-mobile-16-190617174505.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g71/700458/prof/s640x400/foody-upload-api-foody-mobile-16-190617174505.jpg",
+    "ReviewUrl": "/ho-chi-minh/the-alley-tra-sua-dai-loan-ho-tung-mau/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/the-alley-tra-sua-dai-loan-ho-tung-mau/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/the-alley-tra-sua-dai-loan-ho-tung-mau"
+},
+    {
+    "Id": 123514,
+    "Name": "Pepper Lunch - Vincom Center",
+    "Address": "Tầng B3 Vincom Center, 72 Lê Thánh Tôn, P. Bến Nghé",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 21,
+            "Name": "Món Nhật",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-nhat-ban"
+        },
+        {
+            "Id": 36,
+            "Name": "Món Á",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-chau-a"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 1,
+            "Name": "Nhà hàng",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/pepper-lunch-vincom-center/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.777209,
+    "Longitude": 106.7017935999999,
+    "MainCategoryId": 1,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": false,
+    "TotalReview": 279,
+    "TotalView": 6108,
+    "TotalFavourite": 38,
+    "TotalCheckins": 93,
+    "TotalPictures": 1556,
+    "AvgRating": "7.3",
+    "AvgRatingOriginal": 7.264,
+    "PicturePath": "https://images.foody.vn/res/g13/123514/prof/s180x180/foody-mobile-img_5586-jpg-445-636286307837271897.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g13/123514/prof/s640x400/foody-mobile-img_5586-jpg-445-636286307837271897.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g13/123514/prof/s640x400/foody-mobile-img_5586-jpg-445-636286307837271897.jpg",
+    "ReviewUrl": "/ho-chi-minh/pepper-lunch-vincom-center/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/pepper-lunch-vincom-center/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/pepper-lunch-vincom-center"
+},
+    {
+    "Id": 766064,
+    "Name": "bb.q Chicken Premium - Nhà Hàng Hàn Quốc",
+    "Address": "85 Cách Mạng Tháng 8, P. Bến Thành",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 22,
+            "Name": "Món Hàn",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-han-quoc"
+        },
+        {
+            "Id": 36,
+            "Name": "Món Á",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-chau-a"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 1,
+            "Name": "Nhà hàng",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/bb-q-chicken-premium/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.772464,
+    "Longitude": 106.691375,
+    "MainCategoryId": 1,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": false,
+    "TotalReview": 193,
+    "TotalView": 8053,
+    "TotalFavourite": 221,
+    "TotalCheckins": 87,
+    "TotalPictures": 801,
+    "AvgRating": "8.3",
+    "AvgRatingOriginal": 8.34,
+    "PicturePath": "https://images.foody.vn/res/g77/766064/prof/s180x180/foody-upload-api-foody-mobile-20-jpg-180822093547.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g77/766064/prof/s640x400/foody-upload-api-foody-mobile-20-jpg-180822093547.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g77/766064/prof/s640x400/foody-upload-api-foody-mobile-20-jpg-180822093547.jpg",
+    "ReviewUrl": "/ho-chi-minh/bb-q-chicken-premium/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/bb-q-chicken-premium/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/bb-q-chicken-premium"
+},
+    {
+    "Id": 25258,
+    "Name": "So Baek San - Ẩm Thực Hàn Quốc",
+    "Address": "85 Nguyễn Thái Học. P. Cầu Ông Lãnh ",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 22,
+            "Name": "Món Hàn",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-han-quoc"
+        },
+        {
+            "Id": 36,
+            "Name": "Món Á",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-chau-a"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 1,
+            "Name": "Nhà hàng",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 2,
+            "Type": 0,
+            "Url": "/ho-chi-minh/nha-hang-viet-han-so-baek-san",
+            "Title": null,
+            "Text": "Đặt bàn ",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        },
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/nha-hang-viet-han-so-baek-san/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.767128,
+    "Longitude": 106.695818,
+    "MainCategoryId": 1,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": true,
+    "TotalReview": 159,
+    "TotalView": 41132,
+    "TotalFavourite": 208,
+    "TotalCheckins": 43,
+    "TotalPictures": 1092,
+    "AvgRating": "7.0",
+    "AvgRatingOriginal": 6.992,
+    "PicturePath": "https://images.foody.vn/res/g3/25258/prof/s180x180/foody-mobile-so-baek-san-jpg-677-635728576848504885.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g3/25258/prof/s640x400/foody-mobile-so-baek-san-jpg-677-635728576848504885.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g3/25258/prof/s640x400/foody-mobile-so-baek-san-jpg-677-635728576848504885.jpg",
+    "ReviewUrl": "/ho-chi-minh/nha-hang-viet-han-so-baek-san/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/nha-hang-viet-han-so-baek-san/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/nha-hang-viet-han-so-baek-san"
+},
+    {
+    "Id": 175926,
+    "Name": "Bánh Mì Chim Chạy - Thịt Nướng Than",
+    "Address": "Cổng Chính chợ Thái Bình, Phạm Ngũ Lão",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 1,
+            "Name": "Món Việt",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-viet-nam"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 11,
+            "Name": "Ăn vặt/vỉa hè",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/banh-mi-chim-chay/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.766879,
+    "Longitude": 106.688606,
+    "MainCategoryId": 11,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": false,
+    "TotalReview": 178,
+    "TotalView": 19027,
+    "TotalFavourite": 311,
+    "TotalCheckins": 112,
+    "TotalPictures": 713,
+    "AvgRating": "7.8",
+    "AvgRatingOriginal": 7.818,
+    "PicturePath": "https://images.foody.vn/res/g18/175926/prof/s180x180/foody-mobile-banh-mi-chim-chay-mb-471-635810437404729461.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g18/175926/prof/s640x400/foody-mobile-banh-mi-chim-chay-mb-471-635810437404729461.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g18/175926/prof/s640x400/foody-mobile-banh-mi-chim-chay-mb-471-635810437404729461.jpg",
+    "ReviewUrl": "/ho-chi-minh/banh-mi-chim-chay/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/banh-mi-chim-chay/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/banh-mi-chim-chay"
+},
+    {
+    "Id": 45168,
+    "Name": "Ichiba Sushi - Lê Lai",
+    "Address": "204 Lê Lai, P. Bến Thành",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 21,
+            "Name": "Món Nhật",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-nhat-ban"
+        },
+        {
+            "Id": 36,
+            "Name": "Món Á",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-chau-a"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 1,
+            "Name": "Nhà hàng",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 2,
+            "Type": 0,
+            "Url": "/ho-chi-minh/ichiban-sushi-am-thuc-nhat-ban",
+            "Title": null,
+            "Text": "Đặt bàn ",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        },
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/ichiban-sushi-am-thuc-nhat-ban/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.7687785,
+    "Longitude": 106.690406,
+    "MainCategoryId": 1,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": true,
+    "TotalReview": 187,
+    "TotalView": 66406,
+    "TotalFavourite": 208,
+    "TotalCheckins": 64,
+    "TotalPictures": 1444,
+    "AvgRating": "7.9",
+    "AvgRatingOriginal": 7.856,
+    "PicturePath": "https://images.foody.vn/res/g5/45168/prof/s180x180/foody-mobile-ichiba-mb-jpg-635-635798292520466956.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g5/45168/prof/s640x400/foody-mobile-ichiba-mb-jpg-635-635798292520466956.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g5/45168/prof/s640x400/foody-mobile-ichiba-mb-jpg-635-635798292520466956.jpg",
+    "ReviewUrl": "/ho-chi-minh/ichiban-sushi-am-thuc-nhat-ban/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/ichiban-sushi-am-thuc-nhat-ban/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/ichiban-sushi-am-thuc-nhat-ban"
+},
+    {
+    "Id": 98373,
+    "Name": "TEASPOON - Coffee & Tearoom",
+    "Address": "C/c 37 Lý Tự Trọng, Lầu 1, P. Bến Nghé",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 1,
+            "Name": "Món Việt",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-viet-nam"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 2,
+            "Name": "Café/Dessert",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/teaspoon-coffee-tearoom/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.77943,
+    "Longitude": 106.702486,
+    "MainCategoryId": 2,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": false,
+    "TotalReview": 163,
+    "TotalView": 72873,
+    "TotalFavourite": 472,
+    "TotalCheckins": 72,
+    "TotalPictures": 1180,
+    "AvgRating": "7.7",
+    "AvgRatingOriginal": 7.658,
+    "PicturePath": "https://images.foody.vn/res/g10/98373/prof/s180x180/foody-mobile-hmb-h-jpg-652-635820588534972112.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g10/98373/prof/s640x400/foody-mobile-hmb-h-jpg-652-635820588534972112.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g10/98373/prof/s640x400/foody-mobile-hmb-h-jpg-652-635820588534972112.jpg",
+    "ReviewUrl": "/ho-chi-minh/teaspoon-coffee-tearoom/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/teaspoon-coffee-tearoom/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/teaspoon-coffee-tearoom"
+},
+    {
+    "Id": 177925,
+    "Name": "Koicha Saigon - Bubble Tea & Coffee",
+    "Address": "38 Phan Bội Châu, P. Bến Thành",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 21,
+            "Name": "Món Nhật",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-nhat-ban"
+        },
+        {
+            "Id": 36,
+            "Name": "Món Á",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-chau-a"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 2,
+            "Name": "Café/Dessert",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/koicha-saigon-bubble-tea-coffee/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.7730351775815,
+    "Longitude": 106.6984674337157,
+    "MainCategoryId": 2,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": false,
+    "TotalReview": 203,
+    "TotalView": 57291,
+    "TotalFavourite": 232,
+    "TotalCheckins": 53,
+    "TotalPictures": 1427,
+    "AvgRating": "7.3",
+    "AvgRatingOriginal": 7.3,
+    "PicturePath": "https://images.foody.vn/res/g18/177925/prof/s180x180/foody-mobile-t1-jpg-929-635884457744449213.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g18/177925/prof/s640x400/foody-mobile-t1-jpg-929-635884457744449213.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g18/177925/prof/s640x400/foody-mobile-t1-jpg-929-635884457744449213.jpg",
+    "ReviewUrl": "/ho-chi-minh/koicha-saigon-bubble-tea-coffee/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/koicha-saigon-bubble-tea-coffee/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/koicha-saigon-bubble-tea-coffee"
+},
+    {
+    "Id": 28164,
+    "Name": "Vuvuzela Beer Club - Nguyễn Bỉnh Khiêm",
+    "Address": "11B Nguyễn Bỉnh Khiêm, P. Bến Nghé",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 43,
+            "Name": "Beer club",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [],
+    "Latitude": 10.786819,
+    "Longitude": 106.705318,
+    "MainCategoryId": 43,
+    "MasterCategoryId": 1,
+    "HasDelivery": false,
+    "HasBooking": false,
+    "TotalReview": 138,
+    "TotalView": 114585,
+    "TotalFavourite": 177,
+    "TotalCheckins": 88,
+    "TotalPictures": 864,
+    "AvgRating": "7.3",
+    "AvgRatingOriginal": 7.25,
+    "PicturePath": "https://images.foody.vn/res/g3/28164/prof/s180x180/foody-mobile-vuvuzela-nbk-mb-jpg-942-635738656734517826.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g3/28164/prof/s640x400/foody-mobile-vuvuzela-nbk-mb-jpg-942-635738656734517826.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g3/28164/prof/s640x400/foody-mobile-vuvuzela-nbk-mb-jpg-942-635738656734517826.jpg",
+    "ReviewUrl": "/ho-chi-minh/vuvuzela-beer-club/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/vuvuzela-beer-club/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/vuvuzela-beer-club"
+},
+    {
+    "Id": 5449,
+    "Name": "Eleven Restaurant",
+    "Address": "29 Lê Anh Xuân, P. Bến Thành",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 1,
+            "Name": "Món Việt",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-viet-nam"
+        },
+        {
+            "Id": 36,
+            "Name": "Món Á",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-chau-a"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 1,
+            "Name": "Nhà hàng",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        },
+        {
+            "Id": 2,
+            "Name": "Café/Dessert",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 2,
+            "Type": 0,
+            "Url": "/ho-chi-minh/eleven-cafe",
+            "Title": null,
+            "Text": "Đặt bàn ",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        },
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/eleven-cafe/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.7716616,
+    "Longitude": 106.6950953,
+    "MainCategoryId": 2,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": true,
+    "TotalReview": 131,
+    "TotalView": 73691,
+    "TotalFavourite": 286,
+    "TotalCheckins": 38,
+    "TotalPictures": 1199,
+    "AvgRating": "7.6",
+    "AvgRatingOriginal": 7.624,
+    "PicturePath": "https://images.foody.vn/res/g1/5449/prof/s180x180/foody-upload-api-foody-mobile-11-jpg-180809161219.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g1/5449/prof/s640x400/foody-upload-api-foody-mobile-11-jpg-180809161219.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g1/5449/prof/s640x400/foody-upload-api-foody-mobile-11-jpg-180809161219.jpg",
+    "ReviewUrl": "/ho-chi-minh/eleven-cafe/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/eleven-cafe/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/eleven-cafe"
+},
+    {
+    "Id": 144020,
+    "Name": "Dots Cafe - Tea Coffee Desserts - Mplaza Sagon",
+    "Address": "Tầng 1 Mplaza Saigon, 39 Lê Duẩn, P. Bến Nghé",
+    "District": "Quận 1",
+    "City": "TP. HCM",
+    "DistrictId": 1,
+    "Location": "ho-chi-minh",
+    "LocationId": 217,
+    "Phone": null,
+    "Cuisines": [
+        {
+            "Id": 50,
+            "Name": "Quốc tế",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": "/ho-chi-minh/dia-diem-phong-cach-quoc-te"
+        }
+    ],
+    "SpecialDesc": null,
+    "Categories": [
+        {
+            "Id": 2,
+            "Name": "Café/Dessert",
+            "NameEn": null,
+            "ASCIIName": null,
+            "DetailUrl": null
+        }
+    ],
+    "Services": [
+        {
+            "Id": 2,
+            "Type": 0,
+            "Url": "/ho-chi-minh/the-dots-tea-coffee-desserts-kumho",
+            "Title": null,
+            "Text": "Đặt bàn ",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        },
+        {
+            "Id": 1,
+            "Type": 0,
+            "Url": "/ho-chi-minh/the-dots-tea-coffee-desserts-kumho/goi-mon",
+            "Title": null,
+            "Text": "Giao tận nơi",
+            "Avatar": null,
+            "BackgroundColor": null,
+            "RestaurantId": 0,
+            "Description": null
+        }
+    ],
+    "Latitude": 10.781088,
+    "Longitude": 106.70051,
+    "MainCategoryId": 2,
+    "MasterCategoryId": 1,
+    "HasDelivery": true,
+    "HasBooking": true,
+    "TotalReview": 171,
+    "TotalView": 70857,
+    "TotalFavourite": 212,
+    "TotalCheckins": 38,
+    "TotalPictures": 3240,
+    "AvgRating": "7.8",
+    "AvgRatingOriginal": 7.81,
+    "PicturePath": "https://images.foody.vn/res/g15/144020/prof/s180x180/foody-mobile-22-jpg-126-636374376859044698.jpg",
+    "PicturePathLarge": "https://images.foody.vn/res/g15/144020/prof/s640x400/foody-mobile-22-jpg-126-636374376859044698.jpg",
+    "MobilePicturePath": "https://images.foody.vn/res/g15/144020/prof/s640x400/foody-mobile-22-jpg-126-636374376859044698.jpg",
+    "ReviewUrl": "/ho-chi-minh/the-dots-tea-coffee-desserts-kumho/binh-luan",
+    "AlbumUrl": "/ho-chi-minh/the-dots-tea-coffee-desserts-kumho/album-anh",
+    "IconUrl": null,
+    "IsAd": false,
+    "DetailUrl": "/ho-chi-minh/the-dots-tea-coffee-desserts-kumho"
+}]
