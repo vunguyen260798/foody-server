@@ -3,6 +3,8 @@ let Schema=mongoose.Schema;
 
 var ProvinceSchema=new Schema({
     name:{type:String},
+    latitude:{type:Number},
+    longitude:{type:Number},
     slug:{type:String}
 })
 

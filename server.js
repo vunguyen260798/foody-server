@@ -28,8 +28,7 @@ console.log(process.env.NODE_ENV)
  //init.initData.province()
  //init.initData.restaurant()
 //init.initData.food()
-
-
+//init.initData.queryFood()
 app.use('/api', router)
 
 app.listen(PORT, () => {

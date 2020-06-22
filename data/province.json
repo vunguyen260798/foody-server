@@ -2,59 +2,79 @@
     {
         "city": "Cần Thơ",
         "province": "Cần Thơ",
+        "lat": 10.037105,
+        "lng": 105.788249,
         "area": "1,408.9",
         "population": "1,248,000"
     },
     {
         "city": "Đà Nẵng",
         "province": "Đà Nẵng",
+        "lat": 16.074806,
+        "lng": 108.223958,
         "area": "1,285.4",
         "population": "1,028,000"
     },
     {
         "city": "Hải Phòng",
         "province": "Hải Phòng",
+        "lat": 20.724645,
+        "lng": 106.553906,
         "area": "1,527.4",
         "population": "1,963,300"
     },
     {
         "city": "Hà Nội",
         "province": "Hà Nội",
+        "lat": 21.020087,
+        "lng": 105.830967,
         "area": "3,324.5",
         "population": "7,216,000"
     },
     {
         "city": "Hồ Chí Minh",
         "province": "Hồ Chí Minh",
+        "lat": 10.776577,
+        "lng": 106.70085,
         "area": "2,095.5",
         "population": "8,146,300"
     },
     {
         "city": "Bà Rịa",
         "province": "Bà Rịa–Vũng Tàu",
+        "lat": 10.490934,
+        "lng": 107.270145,
         "area": "91.46",
         "population": "122,424"
     },
     {
         "city": "Bạc Liêu",
         "province": "Bạc Liêu",
+        "lat": 9.437527,
+        "lng": 105.462166,
         "area": "175.4",
         "population": "188,863"
     },
     {
         "city": "Bắc Giang",
         "province": "Bắc Giang",
+        "lat": 21.387069,
+        "lng": 106.129314,
         "area": "32.21",
         "population": "126,810"
     },
     {
         "city": "Bắc Ninh",
         "province": "Bắc Ninh",
+        "lat": 21.153281,
+        "lng": 106.151644,
         "area": "80.28",
         "population": "272,634"
     },
     {
         "city": "Bảo Lộc",
+        "lat": 11.511481,
+        "lng": 107.490921,
         "province": "Lâm Đồng",
         "area": "232.56",
         "population": "153,362"
@@ -62,77 +82,103 @@
     {
         "city": "Biên Hòa",
         "province": "Đồng Nai",
+        "lat": 10.789087,
+        "lng": 106.950295,
         "area": "264.07",
         "population": "1,104,495"
     },
     {
         "city": "Bến Tre",
         "province": "Bến Tre",
+        "lat": 10.150212,
+        "lng": 106.506057,
         "area": "67.48",
         "population": "143,312"
     },
     {
         "city": "Buôn Ma Thuột",
         "province": "Đắk Lắk",
+        "lat": 12.674192,
+        "lng": 108.043542,
         "area": "370.00",
         "population": "340,000"
     },
     {
         "city": "Cà Mau",
         "province": "Cà Mau",
+        "lat": 8.942308,
+        "lng": 105.014105,
         "area": "250.3",
         "population": "204,895"
     },
     {
         "city": "Cẩm Phả",
         "province": "Quảng Ninh",
+        "lat": 21.031409,
+        "lng": 106.991013,
         "area": "486.4",
         "population": "195,800"
     },
     {
         "city": "Cao Lãnh",
         "province": "Đồng Tháp",
+        "lat": 10.361613,
+        "lng": 105.51924,
         "area": "107.195",
         "population": "149,837"
     },
     {
         "city": "Châu Đốc",
         "province": "An Giang",
+        "lat": 10.445591,
+        "lng": 105.386218,
         "area": "105.290",
         "population": "157,298"
     },
     {
         "city": "Đà Lạt",
         "province": "Lâm Đồng",
+        "lat": 11.54798,
+        "lng": 107.807722,
         "area": "393.29",
         "population": "256,393"
     },
     {
         "city": "Điện Biên Phủ",
         "province": "Điện Biên",
+        "lat": 21.761718,
+        "lng": 103.097826,
         "area": "60.09",
         "population": "70,639"
     },
     {
         "city": "Đông Hà",
         "province": "Quảng Trị",
+        "lat": 16.817615,
+        "lng": 107.100772,
         "area": "73.06",
         "population": "93,756"
     },
     {
         "city": "Đồng Hới",
         "province": "Quảng Bình",
+        "lat": 17.753527,
+        "lng": 106.423547,
         "area": "155.54",
         "population": "160,325"
     },
     {
         "city": "Hà Tĩnh",
         "province": "Hà Tĩnh",
+        "lat": 18.662059,
+        "lng": 105.755745,
         "area": "56.19",
         "population": "117,546"
     },
     {
         "city": "Hạ Long",
+        "lat": 21.031409,
+        "lng": 106.991013,
         "province": "Quảng Ninh",
         "area": "208.7",
         "population": "203,731"
@@ -140,23 +186,31 @@
     {
         "city": "Hải Dương",
         "province": "Hải Dương",
+        "lat": 20.819141,
+        "lng": 106.406614,
         "area": "71.39",
         "population": "187,405"
     },
     {
         "city": "Hòa Bình",
         "province": "Hòa Bình",
+        "lat": 20.614414,
+        "lng": 105.279477,
         "area": "148.2",
         "population": "93,409"
     },
     {
         "city": "Hội An",
         "province": "Quảng Nam",
+        "lat": 15.554728,
+        "lng": 108.411423,
         "area": "61.47",
         "population": "121,716"
     },
     {
         "city": "Huế",
+        "lat": 16.574519,
+        "lng": 107.510663,
         "province": "Thừa Thiên–Huế",
         "area": "83.3",
         "population": "333,715"
@@ -164,6 +218,8 @@
     {
         "city": "Hưng Yên",
         "province": "Hưng Yên",
+        "lat": 20.839116,
+        "lng": 105.977553,
         "area": "46.8",
         "population": "121,486"
     },
@@ -171,10 +227,14 @@
         "city": "Kon Tum",
         "province": "Kon Tum",
         "area": "432.98",
+        "lat": 14.660919,
+        "lng": 107.838901,
         "population": "137,662"
     },
     {
         "city": "Lạng Sơn",
+        "lat": 21.960937,
+        "lng": 106.364479,
         "province": "Lạng Sơn",
         "area": "79.0",
         "population": "148,000"
@@ -182,59 +242,79 @@
     {
         "city": "Lào Cai",
         "province": "Lào Cai",
+        "lat": 22.089354,
+        "lng": 104.251485,
         "area": "221.5",
         "population": "94,192"
     },
     {
         "city": "Long Xuyên",
         "province": "An Giang",
+        "lat": 10.574275,
+        "lng": 105.240052,
         "area": "106.87",
         "population": "280,300"
     },
     {
         "city": "Móng Cái",
         "province": "Quảng Ninh",
+        "lat": 20.942096,
+        "lng": 106.802698,
         "area": "518.28",
         "population": "108,016"
     },
     {
         "city": "Mỹ Tho",
         "province": "Tiền Giang",
+        "lat": 10.477114,
+        "lng": 106.19256,
         "area": "79.8",
         "population": "215,000"
     },
     {
         "city": "Nam Định",
         "province": "Nam Định",
+        "lat": 20.333352,
+        "lng": 106.078261,
         "area": "46.4",
         "population": "191,900"
     },
     {
         "city": "Ninh Bình",
         "province": "Ninh Bình",
+        "lat": 20.258085,
+        "lng": 105.979651,
         "area": "48.3",
         "population": "130,517"
     },
     {
         "city": "Nha Trang",
         "province": "Khánh Hòa",
+        "lat": 12.248089,
+        "lng": 109.19436,
         "area": "251.0",
         "population": "392,279"
     },
     {
         "city": "Cam Ranh",
         "province": "Khánh Hòa",
+        "lat": 12.005815,
+        "lng": 108.94868,
         "area": "325.0",
         "population": "128,358"
     },
     {
         "city": "Phan Rang–Tháp Chàm",
         "province": "Ninh Thuận",
+        "lat": 11.526956,
+        "lng": 108.929958,
         "area": "79.37",
         "population": "102,941"
     },
     {
         "city": "Phan Thiết",
+        "lat": 10.928888,
+        "lng": 108.102078,
         "province": "Bình Thuận",
         "area": "206.0",
         "population": "255,000"
@@ -242,36 +322,48 @@
     {
         "city": "Phủ Lý",
         "province": "Hà Nam",
+        "lat": 20.580637,
+        "lng": 105.872664,
         "area": "34.27",
         "population": "121,350"
     },
     {
         "city": "Pleiku",
         "province": "Gia Lai",
+        "lat": 13.77532,
+        "lng": 108.525576,
         "area": "260.61",
         "population": "186,763"
     },
     {
         "city": "Quảng Ngãi",
         "province": "Quảng Ngãi",
+        "lat": 15.297763,
+        "lng": 108.761237,
         "area": "37.12",
         "population": "134,400"
     },
     {
         "city": "Quy Nhơn",
         "province": "Bình Định",
+        "lat": 13.619451,
+        "lng": 108.998054,
         "area": "284.28",
         "population": "311,000"
     },
     {
         "city": "Rạch Giá",
         "province": "Kiên Giang",
+        "lat": 10.286239,
+        "lng": 104.646159,
         "area": "97.75",
         "population": "228,360"
     },
     {
         "city": "Sa Đéc",
         "province": "Đồng Tháp",
+        "lat": 10.361613,
+        "lng": 105.51924,
         "area": "59.81",
         "population": "152,237"
     },
@@ -279,40 +371,54 @@
         "city": "Sóc Trăng",
         "province": "Sóc Trăng",
         "area": "76.15",
+        "lat": 9.767432,
+        "lng": 105.98574,
         "population": "173,922"
     },
     {
         "city": "Sơn La",
         "province": "Sơn La",
+        "lat": 20.851994,
+        "lng": 104.621773,
         "area": "324.93",
         "population": "107,282"
     },
     {
         "city": "Tam Kỳ",
         "province": "Quảng Nam",
+        "lat": 15.828983,
+        "lng": 108.259556,
         "area": "92.63",
         "population": "120,256"
     },
     {
         "city": "Tân An",
         "province": "Long An",
+        "lat": 10.657445,
+        "lng": 106.180812,
         "area": "81.79",
         "population": "166,419"
     },
     {
         "city": "Thái Bình",
         "province": "Thái Bình",
+        "lat": 20.556507,
+        "lng": 106.355323,
         "area": "67.7",
         "population": "270,000"
     },
     {
         "city": "Thái Nguyên",
         "province": "Thái Nguyên",
+        "lat": 21.59422,
+        "lng": 105.848172,
         "area": "189.70",
         "population": "330,000"
     },
     {
         "city": "Thanh Hóa",
+        "lat": 19.8,
+        "lng": 105.783333,
         "province": "Thanh Hóa",
         "area": "57.8",
         "population": "197,551"
@@ -320,30 +426,40 @@
     {
         "city": "Trà Vinh",
         "province": "Trà Vinh",
+        "lat": 9.947188,
+        "lng": 106.342249,
         "area": "68.03",
         "population": "131,360"
     },
     {
         "city": "Tuy Hòa",
         "province": "Phú Yên",
+        "lat": 13.095457,
+        "lng": 109.320939,
         "area": "212.62",
         "population": "167,174"
     },
     {
         "city": "Tuyên Quang",
         "province": "Tuyên Quang",
+        "lat": 21.823559,
+        "lng": 105.21424,
         "area": "119.17",
         "population": "110,119"
     },
     {
         "city": "Uông Bí",
         "province": "Quảng Ninh",
+        "lat": 21.016667,
+        "lng": 107.3,
         "area": "256.3",
         "population": "170,000"
     },
     {
         "city": "Việt Trì",
         "province": "Phú Thọ",
+        "lat": 21.32274,
+        "lng": 105.401981,
         "area": "110.99",
         "population": "277,539"
     },
@@ -351,35 +467,47 @@
         "city": "Vinh",
         "province": "Nghệ An",
         "area": "104.98",
+        "lat": 9.947188,
+        "lng": 106.342249,
         "population": "282,981"
     },
     {
         "city": "Vĩnh Yên",
         "province": "Vĩnh Phúc",
+        "lat": 21.393237,
+        "lng": 105.614412,
         "area": "50.80",
         "population": "122,568"
     },
     {
         "city": "Vĩnh Long",
         "province": "Vĩnh Long",
+        "lat": 10.095755,
+        "lng": 106.185479,
         "area": "48.01",
         "population": "147,039"
     },
     {
         "city": "Vũng Tàu",
         "province": "Bà Rịa–Vũng Tàu",
+        "lat": 10.485573,
+        "lng": 107.212256,
         "area": "141.1",
         "population": "327,000"
     },
     {
         "city": "Yên Bái",
         "province": "Yên Bái",
+        "lat": 22.11075,
+        "lng": 104.767475,
         "area": "108.155",
         "population": "95,892"
     },
     {
         "city": "Cao Bằng",
         "province": "Cao Bằng",
+        "lat": 22.694988,
+        "lng": 106.44235,
         "area": "107.6",
         "population": "84,421"
     }

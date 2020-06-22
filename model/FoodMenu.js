@@ -3,7 +3,7 @@ let Schema=mongoose.Schema;
 
 var FoodMenuSchema=new Schema({
     food:{type: String},
-    price:{type:String},
+    price:{type:Number},
     menu:{type: Schema.Types.ObjectId, ref: 'Menu'},
     image:{type:String},
     slug:{type:String}
