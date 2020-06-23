@@ -121,12 +121,20 @@ exports.getAll=async function(req,res){
         {
         $match:filter
     },{
+        $project:{
+            foodQuery:0,
+            location:0
+        }
+    }
+    ,{
         $lookup:{
             from:'provinces',
             localField:'province',
             foreignField:"_id",
             as:"province"
         }
+    },{
+        $unwind:"$province"
     },{
         $sort:sort
     },{
