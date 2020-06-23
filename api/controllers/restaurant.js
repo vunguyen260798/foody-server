@@ -1,4 +1,6 @@
 const db = require("../../model")
+var geodist = require('geodist')
+
 
 /**
  *  GET: /user/id/:_id/get
@@ -79,10 +81,11 @@ exports.getMenu=async function(req,res){
 }
 
 /**
- *  GET: /restaurants?keyword=
+ *  GET: /restaurants?keyword=a&latitude=120.5&longitude=12345
  *  
  */
 exports.getAll=async function(req,res){
+    // define filter
     let keyword=req.query.keyword
     let filter={}
     if(keyword){
@@ -97,12 +100,42 @@ exports.getAll=async function(req,res){
             ]
         }
     }
+    // define sort
+    let sort={
+        "_id":-1
+    }
+    let pipeline=[]
+    if (req.query.latitude && req.query.longitude){
+        sort={
+            "distance":1
+        }
+        pipeline.push({
+            $geoNear:{
+                near: { type: "Point", coordinates: [ Number(req.query.longitude) , Number(req.query.latitude) ] },
+                distanceField:"distance"
+            }
+        })
+    }
+    // define pipeline
+    pipeline=pipeline.concat([ 
+        {
+        $match:filter
+    },{
+        $lookup:{
+            from:'provinces',
+            localField:'province',
+            foreignField:"_id",
+            as:"province"
+        }
+    },{
+        $sort:sort
+    },{
+        $skip:req.query.skip
+    },{
+        $limit:req.query.limit
+    }])
     let count=await db.Restaurant.find(filter).count()
-    db.Restaurant.find(filter)
-    .populate("province")
-    .skip(req.query.skip)
-    .limit(req.query.limit)
-    .lean()
+    db.Restaurant.aggregate(pipeline)
     .exec((err,restaurants)=>{
         if(err ) res.error(err || new Error("restaurant not found"))
         else{

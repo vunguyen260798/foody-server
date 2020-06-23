@@ -16,7 +16,11 @@ var RestaurantSchema=new Schema({
     image:{type:String},
     latitude:{type:Number},
     longitude:{type:Number},
+    location:{
+        type:{type:String, default:"Point"},
+        coordinates:{type:[Number]}
+    },
     foodQuery:{type:[String]}
 })
-
+RestaurantSchema.index({ 'location' : "2dsphere" } )
 module.exports=mongoose.model("Restaurant", RestaurantSchema)

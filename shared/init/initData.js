@@ -3,7 +3,10 @@ let provinceData=require("../../data/province.json")
 let restaurantData=require('../../data/restaurant.json')
 let foodData=require("../../data/food.json")
 const openGeocoder = require('node-open-geocoder');
-let nameRestaurant=require("../../data/nameRestaurant.json")
+let nameRestaurant=require("../../data/nameRestaurant.json");
+const db = require("../../model");
+var request = require('requestretry');
+ 
 
 exports.province=function(){
     provinceData.forEach(i=>{
@@ -142,6 +145,37 @@ exports.queryFood=function(){
             cbData()
         },(err)=>{
             console.log("update food query success")
+        })
+    })
+}
+
+exports.updateAddress=function(){
+    db.Restaurant.find({})
+    .exec((err,data)=>{
+        console.log(data.length)
+        let dem=0
+        async.forEachLimit(data,1,(i,cbRestaurant)=>{
+            request({
+                url: `https://us1.locationiq.com/v1/reverse.php?key=3d2b35f1bca396&lat=${i.latitude}&lon=${i.longitude}&format=json`,
+                json: true,
+                maxAttempts: 1,   // (default) try 5 times
+                retryStrategy: request.RetryStrategies.HTTPOrNetworkError // (default) retry on 5xx or network errors
+              }, function(err, response, body){
+                  console.log(body)
+                if (body && body.display_name) {
+
+                    i.set({
+                        address:body.display_name
+                    })
+                    i.save()
+                }
+                setTimeout(()=>{
+                    console.log(dem++)
+                    cbRestaurant()
+                },1000)
+              });
+        },(err)=>{
+            console.log('update success')
         })
     })
 }
