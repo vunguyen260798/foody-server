@@ -8,7 +8,10 @@ var RestaurantSchema=new Schema({
     timeOpen:{type:Schema.Types.Date},
     timeClose:{type:Schema.Types.Date},
     phone:{type:String},
-    wifi:{type:String},
+    wifi:{
+        name:{type:String},
+        password:{type:String}
+    },
     description:{type:String},
     province:{type:Schema.Types.ObjectId, ref: 'Province'},
     avatar:{type:String},

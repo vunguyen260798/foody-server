@@ -112,7 +112,8 @@ exports.getAll=async function(req,res){
         pipeline.push({
             $geoNear:{
                 near: { type: "Point", coordinates: [ Number(req.query.longitude) , Number(req.query.latitude) ] },
-                distanceField:"distance"
+                distanceField:"distance",
+                maxDistance: 15000
             }
         })
     }

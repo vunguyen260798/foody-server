@@ -6,7 +6,7 @@ const openGeocoder = require('node-open-geocoder');
 let nameRestaurant=require("../../data/nameRestaurant.json");
 const db = require("../../model");
 var request = require('requestretry');
- 
+let randomstring=require('randomstring')
 
 exports.province=function(){
     provinceData.forEach(i=>{
@@ -30,6 +30,8 @@ exports.restaurant=function(){
         async.forEachLimit(provinces,1,(province,cb)=>{
             console.log("-----------------------------------")
             let numRestaurant=Math.floor(Math.random() * 4) + 1
+            if (province.name=="Hồ Chí Minh")
+                numRestaurant=10
             console.log(`generate ${numRestaurant} restaurant for ${province.name}`)
             let arrRes=[]
             for(i=0;i<numRestaurant;i++){
@@ -48,27 +50,30 @@ exports.restaurant=function(){
                 long = (rule==1) ? (long -denta) : (long+denta)
                 // --------------------------
                 let i_name_restaurant=Math.floor(Math.random() * nameRestaurant.length)
-                openGeocoder()
-                .reverse(long, lat )
-                .end((err, res) => {
-                    db.Restaurant.create({
-                        name:nameRestaurant[i_name_restaurant],
-                        address:(res) ? res.display_name : province.name,
-                        type:"quán ăn",
-                        timeOpen:moment("2020-06-22T07:00"),
-                        timeClose:moment("2020-06-22T22:00"),
-                        phone:"0389814400",
-                        wifi:"12345678",
-                        description:"restaurant",
-                        province:province._id,
-                        avatar:data[index].MobilePicturePath,
-                        image:data[index].MobilePicturePath,
-                        latitude:lat,
-                        longitude:long
-                    })
-                })
-             
-                
+                db.Restaurant.create({
+                    name:nameRestaurant[i_name_restaurant],
+                    address: province.name,
+                    type:"quán ăn",
+                    timeOpen:moment("2020-06-22T07:00"),
+                    timeClose:moment("2020-06-22T22:00"),
+                    phone:"0389814400",
+                    wifi:{
+                        "name":randomstring.generate(10),
+                        "password":randomstring.generate(8)
+                    },  
+                    description:"restaurant",
+                    province:province._id,
+                    avatar:data[index].MobilePicturePath,
+                    image:data[index].MobilePicturePath,
+                    latitude:lat,
+                    longitude:long,
+                    location:{
+                        type:"Point",
+                        coordinates:[long,lat]
+                    }
+                },(err,data)=>{
+                    if(err) console.log(err)
+                })  
             }
             cb()
         },(err)=>{

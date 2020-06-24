@@ -25,16 +25,20 @@ console.log(process.env.NODE_ENV)
 /**
  * init data
  */
- //init.initData.province()
+//  init.initData.province()
  //init.initData.restaurant()
 //init.initData.food()
 //init.initData.queryFood()
 //init.initData.updateAddress()
-// db.Restaurant.find()
+
+
 // .exec((err,data)=>{
 //     data.forEach(i=>{
 //         i.set({
-//             'location.coordinates':[i.longitude,i.latitude]
+//             'wifi':{
+//                 'name':"hihi",
+//                 'password':'12345678'
+//             }
 //         })
 //         i.save()
 //     })
