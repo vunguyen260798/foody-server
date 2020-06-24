@@ -18,5 +18,6 @@ morgan("dev")
 )
 
 app.get("/restaurants",controllers.restaurant.getAll)
+app.put("/restaurants/:id/wifi",controllers.restaurant.update)
 app.get("/restaurants/:id/menu",controllers.restaurant.getMenu)
 module.exports = app

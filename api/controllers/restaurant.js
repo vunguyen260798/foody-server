@@ -164,3 +164,32 @@ exports.getAll=async function(req,res){
         }
     })
 }
+
+
+/**
+ * /api/restaurants/:id/wifi
+ * body:{
+ *      "password"
+ * }
+ */
+exports.update=function(req,res){
+    let id=req.params.id
+    let password=req.body.password
+    db.Restaurant.findOne({
+        _id:id
+    })
+    .exec((err,restaurant)=>{
+        if(err) res.error(err || new Error("restaurant not found"))
+        else{
+            restaurant.set({
+                "wifi.password":password
+            })
+            restaurant.save((err,data)=>{
+                if(err) res.error(err)
+                else{
+                    res.success(data)
+                }
+            })
+        }
+    })
+}
