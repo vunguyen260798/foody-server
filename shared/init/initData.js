@@ -2,6 +2,7 @@
 let provinceData=require("../../data/province.json")
 let restaurantData=require('../../data/restaurant.json')
 let foodData=require("../../data/food.json")
+let reviewData=require("../../data/review.json")
 let imageRestaurants=require("../../data/imageRestaurant.json")
 let nameRestaurant=require("../../data/nameRestaurant.json");
 const db = require("../../model");
@@ -196,6 +197,21 @@ exports.updateImageRestaurant=function(){
             console.log(index)
             i.set({
                 imagesUrl:imageRestaurants[index].img
+            })
+            i.save()
+        })
+    })
+}
+
+
+exports.updateReview=function(){
+    db.Restaurant.find({})
+    .exec((err,data)=>{ 
+        data.forEach(i=>{
+            let index=Math.floor(Math.random() * reviewData.length )
+            console.log(index)
+            i.set({
+                description:reviewData[index]
             })
             i.save()
         })

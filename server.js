@@ -31,15 +31,7 @@ console.log(process.env.NODE_ENV)
 //init.initData.queryFood()
 //init.initData.updateAddress()
 //init.initData.updateImageRestaurant()
-// db.Restaurant.find()
-// .exec((err,data)=>{
-//     data.forEach(i=>{
-//         i.set({
-//             'wifi.name':i.name
-//         })
-//         i.save()
-//     })
-// })
+//init.initData.updateReview()
 app.use('/api', router)
 
 app.listen(PORT, () => {
