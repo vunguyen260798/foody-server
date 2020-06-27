@@ -106,9 +106,7 @@ exports.getAll=async function(req,res){
         let provinceData=await db.Province.findOne({
             slug:province
         })
-        if(provinceData){
-            filter.province=provinceData._id
-        }
+        filter.province=(provinceData) ? provinceData._id : null
     }
     console.log(filter)
     // define sort
