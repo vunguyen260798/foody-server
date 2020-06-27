@@ -2,7 +2,7 @@
 let provinceData=require("../../data/province.json")
 let restaurantData=require('../../data/restaurant.json')
 let foodData=require("../../data/food.json")
-const openGeocoder = require('node-open-geocoder');
+let imageRestaurants=require("../../data/imageRestaurant.json")
 let nameRestaurant=require("../../data/nameRestaurant.json");
 const db = require("../../model");
 var request = require('requestretry');
@@ -142,6 +142,9 @@ exports.queryFood=function(){
     .exec((err,data)=>{
         async.forEachLimit(data,2,(i,cbData)=>{
             lib.restaurant.getFoodQuery(i._id,(err,query)=>{
+                query=query.map(i=>{
+                    return utils.string.normalizeV2(i)
+                })
                 i.set({
                     foodQuery:query
                 })
@@ -181,6 +184,20 @@ exports.updateAddress=function(){
               });
         },(err)=>{
             console.log('update success')
+        })
+    })
+}
+
+exports.updateImageRestaurant=function(){
+    db.Restaurant.find({})
+    .exec((err,data)=>{ 
+        data.forEach(i=>{
+            let index=Math.floor(Math.random() * imageRestaurants.length )
+            console.log(index)
+            i.set({
+                imagesUrl:imageRestaurants[index].img
+            })
+            i.save()
         })
     })
 }

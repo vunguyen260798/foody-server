@@ -81,15 +81,17 @@ exports.getMenu=async function(req,res){
 }
 
 /**
- *  GET: /restaurants?keyword=a&latitude=120.5&longitude=12345
+ *  GET: /restaurants?keyword=a&latitude=120.5&longitude=12345&province=ho-chi-minh
  *  
  */
 exports.getAll=async function(req,res){
     // define filter
     let keyword=req.query.keyword
+    let province=req.query.province
     let filter={}
     if(keyword){
-        let patt=new RegExp(keyword,"gi")
+        console.log(utils.string.normalizeV2(keyword))
+        let patt=new RegExp(utils.string.normalizeV2(keyword),"gi")
         filter={
             $or:[
                 {name:patt},
@@ -100,6 +102,15 @@ exports.getAll=async function(req,res){
             ]
         }
     }
+    if(province){
+        let provinceData=await db.Province.findOne({
+            slug:province
+        })
+        if(provinceData){
+            filter.province=provinceData._id
+        }
+    }
+    console.log(filter)
     // define sort
     let sort={
         "_id":-1
